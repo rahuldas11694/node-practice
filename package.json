@@ -1,0 +1,32 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "*",
+    "connect-flash": "*",
+    "cookie-parser": "*",
+    "ejs": "^2.5.5",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "express-messages": "*",
+    "express-session": "^1.15.3",
+    "express-validator": "*",
+    "morgan": "*",
+    "multer": "*",
+    "mysql": "^2.13.0",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
