@@ -36,7 +36,7 @@ router.post("/register",function(req,res){
 		console.log("errors not Present")
 		models.users.createNewUser(req.body,function(err,user){
 			if(err) throw err;
-			console.log(user)
+			console.log("redirecting to login ")
 
 			res.redirect('/users/login');
 		})
